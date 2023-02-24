@@ -22,3 +22,24 @@ text-align: center;
 padding: 25px;
 text-decoration: none;
 }
+
+nav ul li ul
+{
+    position: absolute;
+    display: none;
+}
+
+nav ul li:hover ul
+{
+    margin: 0px;
+    padding: 0px;
+    display: block;
+
+}
+
+nav ul li a
+{
+    margin: 25px;
+    padding: 25px;
+    display: inline-block;
+}
