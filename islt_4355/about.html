@@ -16,7 +16,7 @@ School/Term:  University of Missouri, Spring 2023
 
 Developed: Jan 27, 2023
 
-Tested:  Feb 24, 2023; Passed on Safari and Chrome browsers.
+Tested:  Mar 4, 2023; Passed on Safari and Chrome browsers.
 
 ******************************************************************************
 
@@ -24,30 +24,39 @@ Tested:  Feb 24, 2023; Passed on Safari and Chrome browsers.
                <meta charset="utf-8">
                <title>About Me</title>
 
-                <style>
-                    div {
-                        width: 160px;
-                        padding: 20px;
-                        border: 6px solid blue;
-                        background-color: lightskyblue;
-                        margin: 0;
-                    }
-                </style>
+               <link rel="stylesheet" href="nav.css">
+               <link rel="stylesheet" href="style.css">
+
+        
         
 </head>
 <body>
+
+
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="#project.html">Projects</a>
+            <ul>
+                <li><a href="#">Link 1</a></li>
+                <li><a href="#">Link 2</a></li>
+                <li><a href="#">Link 3</a></li>
+            </ul>
+        </li> 
+        <li><a href="reflection.html">Reflection</a></li>
+        <li><a href="#contact.html">Contact</a></li>   
+    </ul>
+</nav>
 
 <header>
     <h1> Sam Forrest </h1>
 
 </header>
 
-<nav>
-
-</nav>
-
 <main>
-    <div><p><a href="https://samlf2000.github.io/islt_4355/Sam%20Forrest%20Resume%20Revised%201.20.23.pdf"> Resume</a></p></div>
+<div>
+<p class="resumebox"><a href="https://samlf2000.github.io/islt_4355/Sam%20Forrest%20Resume%20Revised%201.20.23.pdf"> Resume</a></p>
 
     <h3> Description </h3>
 
@@ -56,7 +65,7 @@ Tested:  Feb 24, 2023; Passed on Safari and Chrome browsers.
 <blockquote cite="https://quotepark.com/quotes/1924277-sun-tzu-fear-is-the-true-enemy-the-only-enemy/">
     "Fear is the <em>true</em> enemy, the <em>only</em> enemy." - <b>Sun Tzu</b>
     </blockquote>
-
+</div>
 </main>
 
 <footer>
