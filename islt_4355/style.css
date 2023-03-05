@@ -1,1 +1,24 @@
 .header {color: #0033cc}
+
+.resumebox{
+    width: 160px;
+    padding: 20px;
+    border: 6px solid blue;
+    background-color: lightskyblue;
+    margin: 0;
+}
+
+p{
+    text-indent: 30px;
+}
+
+p::first-letter {
+    font-size: xx-large;
+}
+
+div{
+    border: none;
+    margin: 70px;
+    width: 1400px;
+    padding: 50px;
+}
