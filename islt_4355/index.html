@@ -20,21 +20,23 @@ Tested: Feb 10, 2023; Passed on Safari and Chrome browsers.
                <meta charset="utf-8">
                <title>Home page</title>
                 
-               <link rel="stylesheet" href="nav.css">
+            <link rel="stylesheet" href="nav.css">
             <link rel="stylesheet" href="style.css">
 
-            
-                
-                
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+
+                          
 </head>
 <body>
 
     <nav>
-        <ul>
+        <label id="hamburger" for="toggle">&#9776;</label>
+        <input type="checkbox" id="toggle">
+        <ul class="navigationBar">
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="#project.html">Projects</a>
-                <ul>
+                <ul id="mobileHide">
                     <li><a href="#">Link 1</a></li>
                     <li><a href="#">Link 2</a></li>
                     <li><a href="#">Link 3</a></li>
@@ -58,7 +60,7 @@ Tested: Feb 10, 2023; Passed on Safari and Chrome browsers.
 
 <main>
 
-    <div>
+    <div id="container">
 
     <h4>Introduction</h4>
 
