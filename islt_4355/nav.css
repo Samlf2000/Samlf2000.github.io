@@ -19,9 +19,10 @@ padding: 25px 0px 25px 0px;
 li a {
 color: white;
 text-align: center;
-padding: 25px;
+padding: 25px 25px;
 text-decoration: none;
 }
+
 
 nav ul li ul
 {
@@ -42,4 +43,39 @@ nav ul li a
     margin: 25px;
     padding: 25px;
     display: inline-block;
+}
+
+li a:hover {
+    background-color:darkblue;
+    }
+
+#toggle {
+        display: none;
+    }
+#hamburger {
+        display: none;
+        width: 26px;
+        font-size: 1.5em;
+    }
+
+@media only screen and (max-width: 759px) {
+    #hamburger {
+		display: block;
+        background-color: lightskyblue;
+        width: auto;
+        padding: 30px;
+        font-size: 3em;
+        color: white;
+	}
+    .navigationBar {
+        display: none;
+    }
+    #toggle:checked ~ .navigationBar { 
+        display: block;
+	}
+    nav:hover #mobileHide {
+		display: none;
+	}
+
+    
 }
