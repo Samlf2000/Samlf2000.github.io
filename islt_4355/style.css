@@ -1,3 +1,17 @@
+@font-face
+{
+ font-family: 'Roboto Condensed' 'Roboto Mono';
+ src: url("https://fonts.googleapis.com");
+}
+
+body{
+font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Roboto Mono', monospace;
+}
+
+blockquote {font-family: 'Roboto Condensed', sans-serif;}
+
+
 header {
 color: #0033cc;
 display: inline;
@@ -124,4 +138,34 @@ p::first-letter {
     }
           
   }      
+
+  @media print{
+    *{
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+
+    }
+    nav{
+        display: none;
+    }
+
+    body{
+      font-family: 'Roboto Mono', monospace;
+    }
+
+    blockquote{
+        font-family: 'Roboto Condensed', sans-serif;
+    }
+
+    img{
+        display: none;
+      }
+
+    @page{ 
+        margin: 1in;
+    }
+    }
+
 
