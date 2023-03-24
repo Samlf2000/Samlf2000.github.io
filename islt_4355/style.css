@@ -19,10 +19,12 @@ text-align: center;
 }
 
 .resumebox{
-    width: 300px;
+    width: auto;
+    height: auto; 
     padding: 20px;
     border: 6px solid blue;
     background-color: lightskyblue;
+    text-align: center;
 }
 
 p{
@@ -35,7 +37,7 @@ p::first-letter {
 
 footer {
     background-image: url(../islt_4355/footerimage.png);
-    color: black;
+    color: white;
      text-align: center;
      position: fixed;
      left: 0;
@@ -205,8 +207,5 @@ footer {
         margin: 1in;
     }
     }
-
-
-
 
 
