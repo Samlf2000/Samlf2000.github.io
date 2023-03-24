@@ -34,28 +34,20 @@ p::first-letter {
 }
 
 footer {
-
-    text-align: center;
-    position: fixed;
+    background-image: url(../islt_4355/footerimage.png);
+    color: black;
+     text-align: center;
+     position: fixed;
      left: 0;
      width: 100%;
-  
-     background-image: url(../islt_4355/footerimage.png);
-     color: white;
      height:120px;
-  
      list-style-type: none;
-   
      bottom:0;
-  
-  
-  
   }
   
   .logo {
     width: 20px;
     height: 20px;
-   color: white;
   }
   
   .enlarge {
