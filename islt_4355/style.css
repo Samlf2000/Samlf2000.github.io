@@ -1,15 +1,9 @@
-@font-face
-{
- font-family: 'Roboto Condensed' 'Roboto Mono';
- src: url("https://fonts.googleapis.com");
-}
-
 body{
-font-family: 'Roboto Condensed', sans-serif;
-font-family: 'Roboto Mono', monospace;
+font-family: 'Times New Roman', serif;
+font-family: 'Trebuchet MS', sans-serif;
 }
 
-blockquote {font-family: 'Roboto Condensed', sans-serif;}
+blockquote {font-family: 'Times New Roman', serif;}
 
 
 header {
@@ -46,6 +40,24 @@ footer {
      list-style-type: none;
      bottom:0;
   }
+
+  #BoeingHeader{
+    color: #0033cc;
+    display: inline;
+    text-align: center;
+}
+
+#URHeader{
+    color: #0033cc;
+display: inline;
+text-align: center;
+}
+
+#COEHeader{
+    color: #0033cc;
+display: inline;
+text-align: center;
+}
   
   .logo {
     width: 20px;
@@ -176,6 +188,8 @@ footer {
         justify-self: right;
         padding: 10px;
     }
+
+    
           
   }      
 
@@ -192,11 +206,11 @@ footer {
     }
 
     body{
-      font-family: 'Roboto Mono', monospace;
+      font-family:  'Times New Roman', serif;
     }
 
     blockquote{
-        font-family: 'Roboto Condensed', sans-serif;
+        font-family: 'Trebuchet MS', sans-serif;
     }
 
     img{
@@ -207,5 +221,7 @@ footer {
         margin: 1in;
     }
     }
+
+
 
 
