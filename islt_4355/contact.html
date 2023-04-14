@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+
+<!--
+
+Title: Web page template
+
+Use: Framework for professional website
+
+Author: Sam Forrest
+
+School/Term: University of Missouri, Spring 2023
+
+Developed: Apr 14, 2023
+
+Tested: Apr 14, 2023; Passed on Safari and Chrome browsers.
+
+-->
+               <meta charset="utf-8">
+               <title>Projects</title>
+
+               <link rel="stylesheet" href="nav.css">
+               <link rel="stylesheet" href="style.css">
+               <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+    
+    <nav>
+        <label id="hamburger" for="toggle">&#9776;</label>
+        <input type="checkbox" id="toggle">
+        <ul class="navigationBar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="project.html">Projects</a>
+                <ul id="mobileHide">
+                    <li><a href="#BoeingHeader">Boeing</a></li>
+                    <li><a href="#URHeader">Undergraduate Research</a></li>
+                    <li><a href="#COEHeader">COE Ambassador</a></li>
+                </ul>
+            </li> 
+            <li><a href="reflection.html">Reflection</a></li>
+            <li><a href="contact.html">Contact</a></li>   
+        </ul>
+    </nav> 
+
+
+
+<header>
+    <h1> Contact </h1>
+    </header>
+
+<main>
+
+
+<div id="container">
+
+<div class="contactform">
+
+    <form action ="mailto:slfrby@umsystem.edu?subject=%20contact%20" method="POST">
+            <label for="firstname">First name:</label><br>
+            <input type="text" id="first" name="first" value="First Name" required><br><br>
+            <label for="lastname">Last name:</label><br>
+            <input type="text" id="last" name="last" value="Last Name" required><br><br>
+            <label for="emailaddress">Email:</label><br>
+            <input type="email" id="email" name="email" value="Email" required><br><br>
+            <label for="message">Message:</label><br>
+            <input type="text" id="message" name="message" value="Message" required><br><br>
+            <input type="submit" value="Submit">
+    </form> 
+    
+        </div>
+
+
+
+
+
+</div>
+
+</main>
+
+<footer>
+    <p>Sam Forrest
+        <!-- Icons from https://icon-icons.com/-->
+        
+    <img class="logo enlarge" src="/islt_4355/email.ico" alt="emailicon"><a href="mailto:slfrby@umsystem.edu">slfrby@umsystem.edu></a>
+    <img class="logo enlarge" src="/islt_4355/mobilephone.ico" alt="phoneicon"><a href="callto:1-888-888-8888">1-888-888-8888</a>
+    <p>All information subject to copyright: Sam Forrest (2023)</p>
+</footer>
+
+</body>
+</html>
