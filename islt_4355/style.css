@@ -113,8 +113,8 @@ text-align: center;
 
 @media screen and (min-width: 760px) {
     img {
-        width: 160px;
-        height: 300px;
+        width: 360px;
+        height: 500px;
     }
     .grid {
     display: grid;
@@ -132,7 +132,6 @@ text-align: center;
         text-align: left;
         padding: 10px; 
         margin: 20px;
-        margin-bottom: 100px;
         }
 
     .section2 {
@@ -141,7 +140,6 @@ text-align: center;
         margin: 20px;
         justify-self: right;
         padding: 10px;
-        margin-bottom: 100px;
   
     }
     .section3 {
@@ -159,7 +157,7 @@ text-align: center;
         margin: 20px;
         justify-self: right;
         padding: 80px;
-        margin-bottom: 100px;
+        margin-bottom: 80px;
     }
 }
 
@@ -181,10 +179,9 @@ text-align: center;
     }
 
     img {
-        width: 160px;
-        height: 260px;
+        width: 260px;
+        height: 400px;
         padding: 100px;
-        margin-bottom: 100px;
     
     }
 
@@ -194,7 +191,6 @@ text-align: center;
         text-align: left;
         padding: 10px; 
         margin: 20px;
-        margin-bottom: 100px;
         }
 
     .section2 {
@@ -203,7 +199,6 @@ text-align: center;
         margin: 20px;
         justify-self: right;
         padding: 10px;
-        margin-bottom: 100px;
   
     }
     .section3 {
@@ -221,7 +216,6 @@ text-align: center;
         margin: 20px;
         justify-self: right;
         padding: 10px;
-        margin-bottom: 100px;
     }
 
     
@@ -256,8 +250,5 @@ text-align: center;
         margin: 1in;
     }
     }
-
-
-
 
 
