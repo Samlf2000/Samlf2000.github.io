@@ -113,8 +113,8 @@ text-align: center;
 
 @media screen and (min-width: 760px) {
     img {
-        width: 260px;
-        height: 400px;
+        width: 160px;
+        height: 300px;
     }
     .grid {
     display: grid;
